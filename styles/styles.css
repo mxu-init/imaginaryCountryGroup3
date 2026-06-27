@@ -1,5 +1,7 @@
-
-    Codigo Jose
+header { 
+    text-align: center; 
+    margin-bottom: 40px; 
+}
 
 body {
 
@@ -9,10 +11,8 @@ body {
 
 }
 
-.header { 
-    text-align: center; 
-    margin-bottom: 40px; 
-    font-family: 'Arial', sans-serif;
+.header {
+    
 
 }
 
