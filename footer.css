@@ -1,9 +1,11 @@
 footer{
     background-color: #FAF6EE;
-    font-family: var(font-family);
+    font-family: var(--font-family);
     font-size: 10px;
     color: #888888;
-    margin: ;
+    padding: 20px 40px;
+    border-top: 2px solid #E0D8C0;
+
 }
 .footer-text strong{
     color: #1E1E1E;
