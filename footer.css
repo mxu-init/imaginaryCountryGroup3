@@ -1,3 +1,10 @@
 footer{
     background-color: #FAF6EE;
+    font-family: var(font-family);
+    font-size: 10px;
+    color: #888888;
+    margin: ;
+}
+.footer-text strong{
+    color: #1E1E1E;
 }
