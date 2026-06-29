@@ -12,6 +12,27 @@ body {
 }
 
 .navBar {
+    display: flex; /* Mirar cómo va lo del display flex exactamente */
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+}
+
+.item{
+    flex: 1;
+    text-align: center;
+    /* margin: 0 10px; */
+    padding: 12px 0; /* Primer valor: arriba-abajo. Segundo: Izquierda-derecha */
+    background-color: #919fb0;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.25s ease;
+}
+
+.item:hover {
+    background-color: rgb(23, 62, 106);
+    transform: translateY(-7px);
 
 }
 
