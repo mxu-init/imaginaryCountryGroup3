@@ -3,13 +3,11 @@ header {
     margin-bottom: 40px;
 }
 
-body {
-    
-}
+body {}
 
 .header {
     height: 90px;
-    background: #ffffff;
+    background: #FAF6EE;
 
     display: flex;
     align-items: center;
@@ -26,16 +24,26 @@ body {
     width: 52px;
     height: 52px;
 
-    background: #214d2d;
-
     border-radius: 50%;
 
+    overflow: hidden;
+
     margin-right: 25px;
+
+}
+
+
+.logo img {
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
 }
 
 
 
-/* texto central */
 .info h1 {
 
     margin: 0;
@@ -63,7 +71,7 @@ body {
 
 
 
-/* parte derecha */
+
 .derecha {
 
     margin-left: auto;
