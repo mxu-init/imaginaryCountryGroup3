@@ -21,19 +21,19 @@ body {
 .item{
     flex: 1;
     text-align: center;
-    /* margin: 0 10px; */
-    padding: 12px 0; /* Primer valor: arriba-abajo. Segundo: Izquierda-derecha */
-    background-color: #919fb0;
-    color: white;
+    padding: 12px 0;
+    background-color: #FAF6EE;
+    color: #888888;
     text-decoration: none;
     border-radius: 6px;
     transition: all 0.25s ease;
 }
 
 .item:hover {
-    background-color: rgb(23, 62, 106);
+    background-color: rgb(215, 216, 216);
     transform: translateY(-7px);
-
+    text-decoration: underline;
+    text-decoration-color: rgb(179, 213, 235);
 }
 
 footer {
