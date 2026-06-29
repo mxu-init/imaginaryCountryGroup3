@@ -99,19 +99,50 @@ body {
 
 
 
-.derecha button {
+.bandera {
 
-    border: none;
+    display: flex;
 
-    background: #dedbd2;
+    gap: 3px;
 
-    padding: 9px 12px;
+    align-items: center;
 
-    font-size: 10px;
+}
 
-    color: #333;
 
-    cursor: pointer;
+.bandera span {
+
+    width: 14px;
+
+    height: 8px;
+
+    display: block;
+
+}
+
+
+/* Verde */
+.bandera span:nth-child(1) {
+
+    background: #039b62;
+
+}
+
+
+/* Blanco */
+.bandera span:nth-child(2) {
+
+    background: #fdfdfd;
+
+    border: 1px solid #ddd;
+
+}
+
+
+
+.bandera span:nth-child(3) {
+
+    background: #19acd2;
 
 }
 
