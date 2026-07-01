@@ -172,3 +172,64 @@ footer {
     font-weight: bold;
     color: #1E1E1E;
 }
+
+.articulo {
+  flex: 1;
+  min-width: 0;
+}
+
+.pagina {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; 
+  gap: 24px;
+  max-width: 960px; 
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.infoboxMainImageContainer {
+  width: 180px;
+  height: 108px;
+  display: flex;
+  flex-direction: column;  
+}
+
+.infobox {
+  width: 280px;
+  flex-shrink: 0;
+  border: 1px solid #a2a9b1;
+  background-color: #ffffff;
+  font-size: 13px;
+  color: #202122;
+  align-self: flex-start;
+}
+ 
+.infoboxTitle {
+  background-color: #FAF6EE;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 6px 8px;
+  border-bottom: 1px solid #a2a9b1;
+}
+ 
+.infoboxImage {
+  display: flex;
+  justify-content: center;  
+  padding: 12px 0;
+  border-bottom: 1px solid #a2a9b1;
+}
+
+.infoboxTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+ 
+.infoboxTable tr {
+  border-bottom: 1px solid #eaecf0;
+}
+ 
+.infoboxTable tr:last-child {
+  border-bottom: none;
+}
