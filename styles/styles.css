@@ -233,3 +233,9 @@ footer {
 .infoboxTable tr:last-child {
   border-bottom: none;
 }
+
+.typicalDish {
+    display: block;
+    margin: 25px auto;
+    max-width: 320px;
+}
