@@ -173,47 +173,39 @@ footer {
     color: #1E1E1E;
 }
 
-/* ──────────────────────────────────────────
-LAYOUT PRINCIPAL: dos columnas
-───────────────────────────────────────────── */
- 
-/* .pagina usa Flexbox para poner el artículo y el infobox uno al lado del otro*/
+.articulo {
+  flex: 1;
+  min-width: 0;
+}
+
+
 .pagina {
-  display: flex;              /* activa Flexbox                          */
-  flex-direction: row;        /* hijos en fila (por defecto, pero explícito) */
-  align-items: flex-start;    /* los hijos se alinean desde arriba        */
-  gap: 24px;                  /* espacio entre columnas                   */
-  max-width: 960px;           /* ancho máximo de toda la página           */
-  margin: 24px auto;          /* centra la página horizontalmente         */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; 
+  gap: 24px;
+  max-width: 960px; 
+  margin: 24px auto;
   padding: 0 16px;
 }
 
-/* Contenedor principal de la bandera */
 .infoboxMainImageContainer {
   width: 180px;
-  height: 108px;              /* relación de aspecto 5:3 aproximada */
+  height: 108px;
   display: flex;
-  flex-direction: column;     /* apila las franjas de arriba a abajo */
-  /* border: 1px solid #ccc; */
-  /* position: relative;         necesario para centrar el símbolo con position: absolute */
-  /* overflow: hidden;           recorta cualquier cosa que salga del borde */
+  flex-direction: column;  
 }
 
-
-/* ──────────────────────────────────────────
-    INFOBOX
-   ────────────────────────────────────────── */
 .infobox {
-  width: 280px;               /* ancho fijo, no crece ni se encoge */
-  flex-shrink: 0;             /* impide que Flexbox lo comprima     */
+  width: 280px;
+  flex-shrink: 0;
   border: 1px solid #a2a9b1;
   background-color: #ffffff;
   font-size: 13px;
   color: #202122;
-  align-self: flex-start;     /* se queda arriba aunque el artículo sea más largo */
+  align-self: flex-start;
 }
  
-/* Encabezado azul pastel del infobox */
 .infoboxTitle {
   background-color: #FAF6EE;
   text-align: center;
@@ -223,26 +215,22 @@ LAYOUT PRINCIPAL: dos columnas
   border-bottom: 1px solid #a2a9b1;
 }
  
-/* Contenedor de la bandera, centrada */
 .infoboxImage {
   display: flex;
   justify-content: center;  
   padding: 12px 0;
   border-bottom: 1px solid #a2a9b1;
 }
- 
-/* Tabla de datos del infobox */
+
 .infoboxTable {
   width: 100%;
-  border-collapse: collapse;  /* elimina espacios dobles entre celdas */
+  border-collapse: collapse;
 }
  
-/* Cada fila tiene una línea divisoria inferior */
 .infoboxTable tr {
   border-bottom: 1px solid #eaecf0;
 }
  
-/* Quitamos la línea de la última fila para que no se duplique con el borde del infobox */
 .infoboxTable tr:last-child {
   border-bottom: none;
 }
