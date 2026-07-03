@@ -189,10 +189,16 @@ footer {
 }
 
 .infoboxMainImageContainer {
-  width: 180px;
-  height: 108px;
-  display: flex;
-  flex-direction: column;  
+  width: 100%;
+  height: auto; 
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+.infoboxMainImageContainer img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .infobox {
