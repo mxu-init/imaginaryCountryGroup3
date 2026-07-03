@@ -1,0 +1,28 @@
+.tabla-demografica {
+    overflow-x: auto;
+    margin: 16px 0;
+}
+
+.geoTable {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid #d1d5db;
+    font-size: 12px;
+}
+
+.geoTable th {
+    background-color: #f9fafb;
+    border: 1px solid #d1d5db;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.geoTable td {
+    border: 1px solid #d1d5db;
+    padding: 8px;
+}
+
+.geoTable .fila-gris{
+    background-color: #f9fafb;
+}
