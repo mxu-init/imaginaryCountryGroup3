@@ -72,15 +72,3 @@
     line-height: 1.6;
 }
 
-/* Infobox: fuente un poco más grande para la tabla */
-.infoboxTag {
-    padding: 6px 8px;
-    font-weight: bold;
-    color: #444;
-    white-space: nowrap;
-}
-
-.infoboxValue {
-    padding: 6px 8px;
-    color: #1a73e8;
-}
