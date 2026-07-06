@@ -82,4 +82,4 @@ Para asegurar un historial de repositorio limpio y profesional, trabajamos bajo 
 ## 📸 Captura de Pantalla del Resultado
 <img width="1201" height="870" alt="Captura de pantalla 2026-07-03 194435" src="https://github.com/user-attachments/assets/abfffdd2-8a68-4f8e-b803-eae8fc3527f3" />
 
---
+---
