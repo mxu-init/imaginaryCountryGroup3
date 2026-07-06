@@ -79,3 +79,9 @@ Para asegurar un historial de repositorio limpio y profesional, trabajamos bajo 
 <img width="1201" height="870" alt="Captura de pantalla 2026-07-03 194435" src="https://github.com/user-attachments/assets/abfffdd2-8a68-4f8e-b803-eae8fc3527f3" />
 
 --
+
+<a href="https://github.com/mxu-init/imaginaryCountryGroup3/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=mxu-init/imaginaryCountryGroup3" />
+</a>
+
+--
