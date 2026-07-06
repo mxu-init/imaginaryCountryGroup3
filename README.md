@@ -20,7 +20,7 @@
 
 ## 🚀 Enlaces del Proyecto
 
-* [[**Diseño en Figma**](https://www.figma.com/design/CfMYqBQ3bMZOrY1PCqVZ3b/Sin-t%C3%ADtulo?node-id=0-1]
+* [[**Diseño en Figma**](https://www.figma.com/design/CfMYqBQ3bMZOrY1PCqVZ3b/Sin-t%C3%ADtulo?node-id=0-1)]
 * [[**Sitio Web en GitHub Pages**](https://mxu-init.github.io/imaginaryCountryGroup3/)]
 * **Tablero de Organización** [[Enlace a GitHub Project](https://github.com/users/mxu-init/projects/2/views/1)]
 
