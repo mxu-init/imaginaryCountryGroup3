@@ -252,6 +252,13 @@ footer {
     color: #1a73e8;
 }
 
+audio {
+    width: 100%;
+    max-width: 240px;
+    max-height: 100px;
+    margin-top: 7px;
+}
+
 .typicalDish {
     display: block;
     margin: 25px auto;
