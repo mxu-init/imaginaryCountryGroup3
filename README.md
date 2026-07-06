@@ -12,6 +12,10 @@
 * **Maria José Begara Cevidanes** - *Developer / Developer / Estructura base del index.html (previa al resto de páginas), Creación del diseño en Figma, Contenido de la Página 2: Geografía y Territorio*
 * **William Hernández Galvis** - *Scrumm master / Estructura base del index.html (previa al resto de páginas), Contenido de la Página 3: Gobierno, 	Leyes y Sociedad, Generación de columna contenido multimedia*
 
+<a href="https://github.com/mxu-init/imaginaryCountryGroup3/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=mxu-init/imaginaryCountryGroup3" />
+</a>
+
 ---
 
 ## 🚀 Enlaces del Proyecto
@@ -77,11 +81,5 @@ Para asegurar un historial de repositorio limpio y profesional, trabajamos bajo 
 
 ## 📸 Captura de Pantalla del Resultado
 <img width="1201" height="870" alt="Captura de pantalla 2026-07-03 194435" src="https://github.com/user-attachments/assets/abfffdd2-8a68-4f8e-b803-eae8fc3527f3" />
-
---
-
-<a href="https://github.com/mxu-init/imaginaryCountryGroup3/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=mxu-init/imaginaryCountryGroup3" />
-</a>
 
 --
